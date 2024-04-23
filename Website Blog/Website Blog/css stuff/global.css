@@ -1,0 +1,24 @@
+/* Sections */
+.container {
+    margin: 3rem auto;
+    max-width: 200%;
+    max-height: 200%;
+    padding: 25%;
+    position: relative;
+  }
+  
+  /* Section Header Content */
+  .header-container {
+    background-color:grey;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+  
+  /* Option header */
+  .option-container {
+    text-align: center;
+    background-color:grey;
+    padding: 3rem 1rem;
+  }
+
+  

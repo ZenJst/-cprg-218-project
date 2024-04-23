@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/css stuff/css icon.css">
+  <link rel="stylesheet" type="text/css" href="/css stuff/fonts.css">
+  <link rel="stylesheet" type="text/css" href="/css stuff/reset.css">
+  <link rel="stylesheet" type="text/css" href="css stuff/fontsnew+banner.css">
+  <link rel="stylesheet" type="text/css" href="/css stuff/global.css">
+  <link rel="stylesheet" type="text/css" href="css stuff/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down-o.css' rel='stylesheet'>
+
+
+
+  <title>My Photography Blog</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Blog</a>
+   <nav class="nav a">
+      
+      <a href="#FAQ">FAQ</a>
+      <a href="#images">Gallery</a>
+      <a href="#weather">Weather</a>
+      <a href="#Video">Video</a>
+
+    <script src="script.js"></script>
+
+  </nav>
+</header>
+  <section class="hero-banner">
+    <!-- Remove and add hero banner HTML -->
+    <div class="remove-assignment-content">
+      <h1>Welcome to My Photography Blog!</h1>
+      
+
+      </div>
+  </section>
+  <section class="content-container">
+    <!-- Remove and add content HTML -->
+    <div class="remove-assignment-content">
+     
+        <div class="container">
+            <h2>Discover some of my appreciation into photography!</h2>
+            <p>Here, on my blog, you will find galleries of photos I've taken last year.</p>
+            <p>Picture of the year by me !</p>
+            <img src="images/IMG_4446.jpg" alt="This was a photo I took at 5am in the morning" width="600" height="400">
+            <h3>Here's a photo I took 5 am in the morning while heading back home from work</h3>
+          </div>
+    </section>
+    </div>
+
+  </section>
+    <link rel="stylesheet" type="text/css" href="css stuff/css icon.css">
+
+    <div class="close-icon">   
+        <i class="fa-solid fa-camera-retro"></i>
+        <script src="https://kit.fontawesome.com/547695b37c.js" crossorigin="anonymous"></script>
+
+
+        
+    </body>
+    </html>
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Accordion</title>
+    <style>
+    .accordion {
+     max-width: 600px;
+     margin: 0 auto;
+     padding: 100px;
+     background-color: #ffffff;
+     border-radius: 10px;
+    }
+    
+    .accordion-item {
+     border-bottom: 1px solid #ffffff;
+     margin-bottom: 10px;
+    }
+    
+    .accordion-btn {
+     width: 100%;
+     padding: 15px;
+     text-align: left;
+     background-color: #ff8ba7;
+     border: none;
+     cursor: pointer;
+     font-size: 18px;
+     border-radius: 5px;
+     transition: background-color 0.3s ease;
+    }
+    
+    .accordion-content {
+     padding: 10px 0;
+     display: none;
+    }
+    
+    .accordion-item.active .accordion-content {
+     display: block;
+    }
+    </style>
+    </head>
+    <body>
+    <section id="FAQ">
+    <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-btn">Question 1: Do you enjoy photography?</button>
+          <div class="accordion-content">
+            <p>Yes! I'm not a professional, i want to explore more into the wildernest of photography and showcase my pictures around the world.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn">Question 2: What equipment do I use? and what would you recommend?</button>
+          <div class="accordion-content">
+            <p>Currently my Iphone. but im using a  Nikon D3400 DSLR Camera for good quality, i would recommend check the video below for recommendation on camera!</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn">Question 3: What inspires you to be a photographer?</button>
+          <div class="accordion-content">
+            <p>To capture memories and frame all the memories into one place </p>
+          </div>
+        </div>
+      </div>
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+      const accordionItems = document.querySelectorAll('.accordion-item');
+  
+      accordionItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+          this.classList.toggle('active');
+          const content = this.querySelector('.accordion-content');
+          if (content.style.display === 'block') {
+            content.style.display = 'none';
+          } else {
+            content.style.display = 'block';
+          }
+        });
+      });
+    });
+  </script>
+  </section>
+
+  <!DOCTYPE html>
+  <html lang=""en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="2nd styles.css">
+    <link rel="stylesheet" type="text/html" href="index.html">
+    <link rel="stylesheet" type="text/css" href="weatherfont.css">
+    <title>My Photography Blog</title>
+  
+  <style>
+       
+  div.gallery {
+  border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+  border: 1px solid #777;
+  }
+  
+  div.gallery img {
+  width: 100%;
+  height: auto;
+  }
+  
+  div.desc {
+  padding: 15px;
+  text-align: center;
+  }
+  
+  * {
+  box-sizing: border-box;
+  }
+  
+  .responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+  .responsive {
+   width: 50%;
+   margin: 6px 0;
+  }
+  }
+  
+  @media only screen and (max-width: 500px) {
+  .responsive {
+   width: 100%;
+  }
+  }
+  
+  
+  </style>
+  </body>
+  </head>
+  <body>
+  
+  
+  <h4>here are some of my photos</h4>
+  <section id="images">
+  <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="images/IMG_4772.jpg">
+     <img src="images/IMG_4772.jpg" alt="SAIT Heritage Hall. I took this photo at night and showing the lights and old building of SAIT." width="600" height="400">
+   </a>
+  </h4>
+  <p class="paragraph">
+     sait's oldest building
+  </div>
+  </div>
+  
+  <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="images/IMG_4774.jpg">
+     <img src="images/IMG_4774.jpg" alt="Downtown Clagary from sait. I took this photo in sait's ground and showing the beauty of calgary" width="600" height="400">
+   </a>
+  </h4>
+  <p class="paragraph">
+     This was a picture I took in sait's ground 
+  </div>
+  </div>
+  
+  <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="images/IMG_4775.jpg">
+     <img src="images/IMG_4775.jpg" alt="A picture I took of the moon and the cloudy skies at night" width="600" height="400">
+   </a>
+  </h>
+  <p class="paragraph">
+     I took this photo when i missed my train in red line and accidentally went to blue line
+  </div>
+  </div>
+  
+  <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="images/IMG_4777.jpg">
+     <img src="images/IMG_4777.jpg" alt="A picture I took at night of the city hall showing the night of calgary while walking to city hall station" width="600" height="400">
+   </a>
+     </h4>
+     <p class="paragraph">
+         This was a picture I took at night of City Hall with the night sky in calgary
+  </div>
+  </div>
+  <div style="padding:6px;">
+    <p>These are just some of the many photos I took this past few months!! </p>
+    <p>I'm still improving my photograhy skills and persectives </p>
+    </div>
+  </section>
+  </body>
+  
+  <body>
+  <div class="clearfix"></div>
+  <section id="weather">
+    <h1>Weather Widget</h1>
+    <h2><div class="close-icon">
+      <i class="fa-solid fa-sun"></i>
+      <i class="fa-solid fa-cloud-bolt"></i>
+      <i class="fa-solid fa-wind"></i>
+      <i class="fa-solid fa-umbrella"></i>
+      <script src="https://kit.fontawesome.com/547695b37c.js" crossorigin="anonymous"></script>
+      </h2>
+  </body>
+  <section class="option-2-enhanced">
+    <div class="option-container">
+      <h2>Temperature Finder</h2>
+      <p>Input a city for it's temperature.</p>
+  
+  <div class="container">
+    <div class="input">
+        <input type="text " class="inputValue" placeholder="Enter City Name">
+        <button class="button"> Enter <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+  </div>
+  
+  <div class="displayWeather">
+    <h1 class="temp">__°C</h1>
+    <p class="desc">Weather Conditions</p>
+  </div>
+    <script src="weatherscripts.js" defer></script>
+  </section>
+</section>
+  
+</body>
+<section id="Video">
+<div class="video-wrapper">
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/aoAiIJZ6s-Y?si=rC7i3lsbr9hwSQ7u" width="500" height="200" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <section class="footer-container">
+        <!-- Remove and add footer HTML -->
+        <div class="remove-assignment-content">
+          <div class="footer-content">
+            <div class="footer-links">
+                <ul>
+                    <p class="copyright">
+                      &copy; <span id="2024"></span> Justin Staana. All rights reserved.
+                  </p>
+                </ul>
+            </div>
+            <div id="map" class="map"></div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.398042309322!2d-114.0703887!3d51.0457377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fe38df9ba0f%3A0x974e0bbf9bd22545!2s8%20Ave%20SW%2C%20Calgary%2C%20AB!5e0!3m2!1sen!2sca!4v1713754504823!5m2!1sen!2sca" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+        </section>
+    </html>
